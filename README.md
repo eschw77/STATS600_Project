@@ -2,6 +2,6 @@
 
 ## General Plan 
 
-Data Cleaning: 
-Initial Model fits: 
-Feature Engineering: 
+- Data Cleaning: 
+- Initial Model fits: 
+- Feature Engineering: 
