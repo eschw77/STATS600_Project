@@ -1,0 +1,17 @@
+{
+ "argv": [
+  "{R_BIN}",
+  "--no-echo",
+  "--no-restore",
+  "--no-init-file",
+  "-e",
+  "source(file.path(Sys.getenv('RENV_PROJECT'), 'renv', 'activate.R')); IRkernel::main()",
+  "--args",
+  "{connection_file}"
+ ],
+ "display_name": "R (STATS600 renv)",
+ "language": "R",
+ "env": {
+  "RENV_PROJECT": "{PROJECT_DIR}"
+ }
+}

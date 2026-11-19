@@ -1,0 +1,36 @@
+Type: project
+Title: STATS600 Weather Forecasting Project
+Description: R packages used by the project environment. Depends lists the R
+    version. Imports lists the base R packages the analysis code calls
+    (stats for arima/lm/predict, graphics and grDevices for plots, utils),
+    tidyverse for data wrangling and ggplot2 graphics,
+    then the Jupyter R kernel (IRkernel) and every package it needs, then renv.
+    Exact versions are pinned in renv.lock; update both files together.
+Depends:
+    R (>= 4.6.0)
+Imports:
+    stats,
+    graphics,
+    grDevices,
+    utils,
+    tidyverse,
+    IRkernel (>= 1.3.2),
+    base64enc (>= 0.1-6),
+    cli (>= 3.6.6),
+    crayon (>= 1.5.3),
+    digest (>= 0.6.39),
+    evaluate (>= 1.0.5),
+    fastmap (>= 1.2.0),
+    glue (>= 1.8.1),
+    htmltools (>= 0.5.9),
+    IRdisplay (>= 1.1),
+    jsonlite (>= 2.0.0),
+    lifecycle (>= 1.0.5),
+    pbdZMQ (>= 0.3-14),
+    pillar (>= 1.11.1),
+    repr (>= 1.1.7),
+    rlang (>= 1.3.0),
+    utf8 (>= 1.2.6),
+    uuid (>= 1.2-2),
+    vctrs (>= 0.7.3),
+    renv (>= 1.3.1)

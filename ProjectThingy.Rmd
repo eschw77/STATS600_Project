@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 
-weatherdata <- load("weather.rda")
+weatherdata <- load("data/weather.rda")
 
 
 ```
